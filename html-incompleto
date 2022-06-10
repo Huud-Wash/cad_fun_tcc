@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Food&Grill</title>
+</head>
+<header>
+    <h1>Food & Grill</h1>
+  </header>
+<body>
+    <img src="MicrosoftTeams-image.png" alt="logo" align="right">
+
+    <div class="container">
+
+        <div class="grid-item">
+            <img src="l-b-r.png" alt="logo" height="400" width="500" aling="bottom">
+        </div>
+
+        <div class="grid-item">
+            <img src="l-b-r.png" alt="logo" height="400" width="500" aling="bottom">
+        </div>
+
+        
+    </div>
+
+    <--! campos de cadastro do funciónario
+    <form>
+        <div class="form-group row">
+          <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@exemplo.com">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Senha</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword" placeholder="Senha">
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Confirmar identidade</button>
+      </form>
+</body>
+</html>
